@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input oninput="dispKeyCode(event)" type="text">
+</body>
+</html>
+
+<script>
+    function dispKeyCode(e){
+        console.log(e.which, "Which")
+        console.log(e.keyCode)
+        if(e.keyCode == 16){
+            alert("You pressed enter")
+        }
+        console.log(e.key, "Key")
+        console.log(e.code, "Code")
+    }
+    let arr = ["kljhg", "iouygh"]
+    console.log(arr)
+</script>
